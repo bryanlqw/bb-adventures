@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Our Adventures</title>
+    <title>Our Date Tracker</title>
+    <style>
+        /* A little bit of CSS to make it look nice */
+        body { font-family: sans-serif; text-align: center; padding-top: 50px; }
+        button { padding: 10px 20px; font-size: 16px; cursor: pointer; }
+    </style>
 </head>
 <body>
-    <h1>Hello! This is our website.</h1>
-    <p>We are just getting started.</p>
+
+    <h1>Welcome to our Project!</h1>
+    <p>Click the button to see JavaScript in action:</p>
+    
+    <button onclick="showSurprise()">Click Me!</button>
+
+    <script>
+        function showSurprise() {
+            alert("Hello! This message was triggered by JavaScript.");
+            console.log("The button was clicked!");
+        }
+    </script>
+
 </body>
 </html>
